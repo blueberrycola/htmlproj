@@ -1,0 +1,10 @@
+h1 {
+    font-size: 4em;
+}
+.menu li {
+    display: inline;
+    background-color: #0065a4;
+    color: #ffffff;
+    padding: 5px;
+    
+}

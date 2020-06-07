@@ -1,10 +1,101 @@
+body {
+    margin: 0;
+}
 h1 {
-    font-size: 4em;
+    font-size: 2em;
+    border: 2px solid #000000;
+    background-color: #0065a4;
+    color: white
+}
+
+header {
+    padding: 0;
+    border: 0;
 }
 .menu li {
     display: inline;
     background-color: #0065a4;
     color: #ffffff;
-    padding: 5px;
+    padding: 15px;
+    margin: 1px;
+    top: 50px;
+    left:0px;
+    right:0px;
+    bottom:0px;
     
 }
+ul {
+    background-color: #0065a4;
+    padding: 0;
+    margin: 0;
+}
+word{
+    display: inline;
+    background-color: #0065a4;
+    color: #ffffff;
+    font-size: 2em;
+}
+.button{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 2em;
+    background-color: #0065a4;
+    color: white;
+    border: 2x;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 45px;
+}
+lilquote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        font-style: italic;
+}
+message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    padding: 10px;
+    
+}
+
+
+
